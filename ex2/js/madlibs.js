@@ -22,14 +22,14 @@ window.onload = function() {
     
     //error detection
     if (userName == "" || userNumber == "" || userPlace == "" || userBignumber == "" || userMajor == "" || userOccupation == "") {
-      alert("fill out the form!");
+      alert("You might've missed some boxes... fill out the form!");
 
     } else {
 
       //capture the msg element to change it's text and html
       var myMsg = document.getElementById("myMsg");
 
-      myMsg.innerHTML = "Congratulations <em>" + userName + "</em>! You did it! You survived <em>" + userNumber + "</em> years of college. You moved all the way from <em>" + userPlace + "</em> to spend <em>" + userBignumber + "</em> dollars to get a degree in <em>" + userMajor + "</em>. That way you can hopefully get a great job as a(n) <em>" + userOccupation + "</em> because you already have life all figured out, right? Oh, and about those student loans..."; 
+      myMsg.innerHTML = "Congratulations <em>" + userName + "</em>! You did it! You survived <em>" + userNumber + "</em> years of college. You moved all the way from <em>" + userPlace + "</em> to spend <em>" + userBignumber + "</em> dollars to get a degree in <em>" + userMajor + "</em>. That way you can hopefully get a great job as a(n) <em>" + userOccupation + "</em> because you already have life all figured out, right? Oh, and don't forget about those student loans!"; 
       myMsg.className = "show";
     }
 

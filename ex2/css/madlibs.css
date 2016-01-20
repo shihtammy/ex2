@@ -6,10 +6,11 @@
 body {
   font-family: 'PT Sans', sans-serif;
   font-weight: 300;
-  font-size: 12px; 
+  font-size: 14px; 
   text-decoration:none;
   color: #333;
-  padding: 24px;
+  padding: 50px 300px;
+  width:1000;
 }
 
 em {
@@ -17,24 +18,26 @@ em {
 }
 
 form input {
-  margin: 12px 6px;
-  padding: 24px;
+  margin: 12px 6px 0px 10px;
+  padding: 10px;
   background-color: #333;
   color: white;
   font-size: 14px;
 }
 
 form input[type="submit"] {
-  color: red;
+  color: indianred;
 }
 
 form input[type="submit"]:hover,
 form input[type="reset"]:hover {
-  background-color: #555;
+  background-color: ghostwhite;
 }
 
 p {
-  background-color: orange;
+  background-color: tan;
+  float: right;
+  font-size:20px;
 }
 
 .hide {
