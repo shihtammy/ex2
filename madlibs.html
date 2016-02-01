@@ -1,53 +1,61 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Mad Libs 2.0</title>
-    
-      <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="css/madlibs.css">
-    
-  </head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MadLibs 2.0</title>
+                
+        <link href='https://fonts.googleapis.com/css?family=Lora|Cinzel:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="madlibs.css">
 
-    <h1>grad libs</h1>
-    
-  <body>
+</head>
 
-<form name="f">
+<body>
+    <header>
+        <h1>Fortune Grad Libs </h1>
+    </header>
 
-  <label>your name:</label>
-  <input type="text" name="userName">
-    <br>
+    <h2> Ever wondered what your life after college would be like?  Well wonder no more, we have a fortune teller here to tell you all about YOU! Fill out this form below to find out what our fortune teller shihs in your future... </h2>
 
-  <label>number:</label>
-  <input type="text" name="number">
-    <br>
+    <div id="form">
+        <form name="f">
+
+            <input type="text" name="name" placeholder="your name">
+            <br>
+            <input type="text" name="adjective1" placeholder="pick an adjective">
+            <br>
+
+            <input type="text" name="number1" placeholder="pick a number">
+            <br>
+
+            <input type="text" name="place" placeholder="pick a city/country/place">
+            <br>
+
+            <input type="text" name="occupation" placeholder="pick an occupation">
+            <br>
+
+            <input type="text" name="number2" placeholder="pick another number">
+            <br>
+
+            <input type="text" name="animal" placeholder="pick an animal">
+            <br>
+            <input type="text" name="adjective2" placeholder="pick another adjective">
+            <br>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+    </div>
         
-  <label>city/country/place:</label>
-  <input type="text" name="place">
-    <br>
-
-  <label>big number:</label>
-  <input type="text" name="bignumber">
-    <br>
-
-  <label>any major:</label>
-  <input type="text" name="major">
-    <br>
+        <img src="images/cap.png">
         
-  <label>occupation:</label>
-  <input type="text" name="occupation">
-    <br>
-        
-  <input type="reset" value="reset" />
-  <input type="submit" value="submit" />
+    <div id="message"> 
 
-  <section class="hide">
-    <p id="myMsg">hello</p>
-  </section>
-</form>
+        <section class="hide">
+            <p id="myMsg"></p>
+        </section>
+
+    </div>
+    </form>
     
-        <script src="js/madlibs.js"></script>
+    <script src="madlibs.js"></script>
     
-  </body>
+    </body>
 </html>
